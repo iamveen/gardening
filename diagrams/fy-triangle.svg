@@ -1,0 +1,99 @@
+<svg width="100%" viewBox="0 0 500 410" xmlns="http://www.w3.org/2000/svg">
+  <title>FY-Triangle — 2026 Growing Plan</title>
+  <defs>
+    <marker id="na" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M2 2L8 5L2 8" fill="none" stroke="#6b7280" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <!-- Clip to triangle shape: A(70,50) B(378,50) C(70,302) -->
+    <clipPath id="tri">
+      <polygon points="70,50 378,50 70,302"/>
+    </clipPath>
+  </defs>
+
+  <!-- Title -->
+  <text x="224" y="22" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#111827">FY-Triangle · ~50 sq ft</text>
+  <text x="224" y="40" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#b45309">☀ Full sun · 6–8+ hrs</text>
+
+  <!-- N arrow -->
+  <line x1="455" y1="74" x2="455" y2="54" stroke="#6b7280" stroke-width="1.5" marker-end="url(#na)"/>
+  <text x="455" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#6b7280">N</text>
+
+  <!-- ── Zone fills clipped to triangle ── -->
+  <!-- Zone 1: Tomatoes y=50–134 -->
+  <rect x="70" y="50"  width="308" height="84" fill="#fef2f2" clip-path="url(#tri)"/>
+  <!-- Zone 2: Beans y=134–218 -->
+  <rect x="70" y="134" width="308" height="84" fill="#fefce8" clip-path="url(#tri)"/>
+  <!-- Zone 3: Kale / Chard y=218–274 -->
+  <rect x="70" y="218" width="308" height="56" fill="#ecfeff" clip-path="url(#tri)"/>
+  <!-- Zone 4: Herbs y=274–302 -->
+  <rect x="70" y="274" width="308" height="28" fill="#fef9c3" clip-path="url(#tri)"/>
+
+  <!-- Triangle outline (drawn after fills) -->
+  <polygon points="70,50 378,50 70,302" fill="none" stroke="#374151" stroke-width="2"/>
+
+  <!-- Zone divider lines (clipped to triangle width at each y) -->
+  <!-- At y=134: right x ≈ 275 -->
+  <line x1="70" y1="134" x2="275" y2="134" stroke="#d1d5db" stroke-width="1" stroke-dasharray="4,3"/>
+  <!-- At y=218: right x ≈ 173 -->
+  <line x1="70" y1="218" x2="173" y2="218" stroke="#d1d5db" stroke-width="1" stroke-dasharray="4,3"/>
+  <!-- At y=274: right x ≈ 104 -->
+  <line x1="70" y1="274" x2="104" y2="274" stroke="#d1d5db" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- ── Zone 1: Tomato label & plants ── -->
+  <!-- Zone center at y=92, triangle mid-x ≈ 198 -->
+  <text x="199" y="72" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#991b1b">Tomatoes × 3 · cordon-trained</text>
+
+  <!-- Stake lines -->
+  <line x1="124" y1="50" x2="124" y2="87" stroke="#dc2626" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="194" y1="50" x2="194" y2="87" stroke="#dc2626" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="264" y1="50" x2="264" y2="87" stroke="#dc2626" stroke-width="1" stroke-dasharray="3,2"/>
+
+  <!-- Sungold × 2 -->
+  <circle cx="124" cy="100" r="12" fill="#fbbf24" stroke="#d97706" stroke-width="1.5"/>
+  <text x="124" y="104" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="700" fill="#78350f">SG</text>
+  <circle cx="194" cy="100" r="12" fill="#fbbf24" stroke="#d97706" stroke-width="1.5"/>
+  <text x="194" y="104" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="700" fill="#78350f">SG</text>
+  <!-- Stupice × 1 -->
+  <circle cx="264" cy="100" r="12" fill="#fb923c" stroke="#c2410c" stroke-width="1.5"/>
+  <text x="264" y="104" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="700" fill="white">St</text>
+
+  <!-- ── Zone 2: Beans label ── -->
+  <!-- Center y=176, triangle mid-x ≈ 147 -->
+  <text x="147" y="170" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#713f12">Bush beans</text>
+  <text x="147" y="185" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#78350f">2 rows · sow after May 10</text>
+
+  <!-- ── Zone 3: Kale label ── -->
+  <!-- Center y=246, triangle mid-x ≈ 105 -->
+  <text x="100" y="242" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#0e7490">Kale</text>
+  <text x="100" y="256" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#0e7490">or Chard</text>
+
+  <!-- ── Zone 4: Herbs — label outside (zone too narrow) ── -->
+  <line x1="88" y1="288" x2="160" y2="288" stroke="#9ca3af" stroke-width="0.75" stroke-dasharray="3,2"/>
+  <text x="164" y="292" font-family="system-ui, sans-serif" font-size="10" fill="#713f12">Thyme · oregano · sage</text>
+
+  <!-- Callout lines to wider labels for kale and beans -->
+  <text x="290" y="185" font-family="system-ui, sans-serif" font-size="10" fill="#78350f">← sow direct, after May 10</text>
+  <text x="290" y="248" font-family="system-ui, sans-serif" font-size="10" fill="#0e7490">← transplant or sow now</text>
+
+  <!-- Dimension: ~11 ft wide end -->
+  <line x1="70"  y1="318" x2="378" y2="318" stroke="#9ca3af" stroke-width="1"/>
+  <line x1="70"  y1="312" x2="70"  y2="324" stroke="#9ca3af" stroke-width="1"/>
+  <line x1="378" y1="312" x2="378" y2="324" stroke="#9ca3af" stroke-width="1"/>
+  <text x="224" y="334" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6b7280">~11 ft (wide/north end)</text>
+
+  <!-- Dimension: ~9 ft depth -->
+  <line x1="44" y1="50"  x2="44" y2="302" stroke="#9ca3af" stroke-width="1"/>
+  <line x1="38" y1="50"  x2="50" y2="50"  stroke="#9ca3af" stroke-width="1"/>
+  <line x1="38" y1="302" x2="50" y2="302" stroke="#9ca3af" stroke-width="1"/>
+  <text x="26" y="176" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#6b7280" transform="rotate(-90,26,176)">~9 ft</text>
+
+  <!-- Orientation -->
+  <text x="224" y="350" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#9ca3af">Wide end faces north (toward house) · tip faces south-east</text>
+
+  <!-- Tomato variety legend -->
+  <text x="70" y="372" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#4b5563">Tomato varieties:</text>
+  <circle cx="85" cy="387" r="7" fill="#fbbf24" stroke="#d97706" stroke-width="1"/>
+  <text x="97" y="391" font-family="system-ui, sans-serif" font-size="10" fill="#4b5563">SG = Sungold (cherry) × 2</text>
+  <circle cx="85" cy="403" r="7" fill="#fb923c" stroke="#c2410c" stroke-width="1"/>
+  <text x="97" y="407" font-family="system-ui, sans-serif" font-size="10" fill="#4b5563">St = Stupice (early slicer) × 1</text>
+</svg>

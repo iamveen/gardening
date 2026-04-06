@@ -22,12 +22,12 @@
 
 | Name | Area | Sun Exposure | Notes |
 |------|------|--------------|-------|
-| [BY-Shed](#by-shed) | 10 × 4 ft | Part shade, ~3–4 hrs | Between shed (N) and house (S), west fence |
-| [BY-Back](#by-back) | 4 × 15 ft | Part–full sun, ~4–6 hrs | East border, north section, morning sun |
-| [BY-Front](#by-front) | 4 × 15 ft | Mostly shade, ~2–3 hrs | East border, south section, tree shadow PM |
+| [BY-Shed](#by-shed) | 9 × 4 ft | Part shade, ~3–4 hrs | Between shed (N) and house (S), west fence |
+| [BY-Back](#by-back) | 5 × 11 ft | Part–full sun, ~4–6 hrs | East border, north section, morning sun |
+| [BY-Front](#by-front) | 5 × 12 ft | Mostly shade, ~2–3 hrs | East border, south section, tree shadow PM |
 | [BY-WestFence](#by-westfence) | 1 × ~20 ft | Part shade | Along west fence, **NON-FOOD** garden |
-| [FY-Square](#fy-square) | 15 × 8 ft | Full sun, 6–8+ hrs | Front yard, south-facing, open sky |
-| [FY-Triangle](#fy-triangle) | ~60 sq ft | Full sun, 6–8+ hrs | Front yard, south-facing, triangular shape |
+| [FY-Square](#fy-square) | 13 × 9 ft | Full sun, 6–8+ hrs | Front yard, south-facing, open sky |
+| [FY-Triangle](#fy-triangle) | ~50 sq ft | Full sun, 6–8+ hrs | Front yard, south-facing, triangular shape |
 
 ---
 
@@ -36,7 +36,7 @@
 ### BY-Shed
 *Backyard, beside shed*
 
-- **Size:** 10 × 4 ft (40 sq ft)
+- **Size:** 9 × 4 ft (36 sq ft)
 - **Sun:** Part shade, ~3–4 hrs (midsummer estimate)
 - **Obstructions:** House to south, shed to north, 6 ft west fence
 - **Notes:** Shed is single-storey (~10–12 ft). Garage originally noted — confirmed to be a shed.
@@ -46,7 +46,7 @@
 ### BY-Back
 *Backyard, east border, north half*
 
-- **Size:** 4 × 15 ft (60 sq ft)
+- **Size:** 5 × 11 ft (55 sq ft)
 - **Sun:** Part–full sun, ~4–6 hrs (midsummer estimate)
 - **Obstructions:** Shed to north (low impact — sun comes from south)
 - **Notes:** Morning sun, east-facing. Previously labelled Bed 2 north.
@@ -56,7 +56,7 @@
 ### BY-Front
 *Backyard, east border, south half*
 
-- **Size:** 4 × 15 ft (60 sq ft)
+- **Size:** 5 × 12 ft (60 sq ft)
 - **Sun:** Mostly shade, ~2–3 hrs (midsummer estimate)
 - **Obstructions:** Pear tree casts significant evening shadow across this bed
 - **Notes:** Previously labelled Bed 2 south. Same physical border as BY-Back but treated as separate bed.
@@ -76,7 +76,7 @@
 ### FY-Square
 *Front yard, left bed*
 
-- **Size:** 15 × 8 ft (120 sq ft)
+- **Size:** 13 × 9 ft (117 sq ft)
 - **Sun:** Full sun, 6–8+ hrs (midsummer estimate)
 - **Obstructions:** None significant. 4 ft west fence casts minimal shadow.
 - **Notes:** Best growing conditions on the property.
@@ -86,7 +86,7 @@
 ### FY-Triangle
 *Front yard, right bed*
 
-- **Size:** ~60 sq ft (triangular, approx 15 × 8 ft footprint)
+- **Size:** ~50 sq ft (triangular, approx 11 × 9 ft footprint)
 - **Sun:** Full sun, 6–8+ hrs (midsummer estimate)
 - **Obstructions:** None significant
 - **Notes:** Triangular shape reduces usable area vs FY-Square. Best growing conditions on the property.
@@ -123,9 +123,9 @@
 
 | Bed | Area | Sun |
 |-----|------|-----|
-| BY-Shed | 40 sq ft | Part shade |
-| BY-Back | 60 sq ft | Part–full sun |
+| BY-Shed | 36 sq ft | Part shade |
+| BY-Back | 55 sq ft | Part–full sun |
 | BY-Front | 60 sq ft | Mostly shade |
-| FY-Square | 120 sq ft | Full sun |
-| FY-Triangle | 60 sq ft | Full sun |
-| **Total** | **340 sq ft** | |
+| FY-Square | 117 sq ft | Full sun |
+| FY-Triangle | ~50 sq ft | Full sun |
+| **Total** | **~318 sq ft** | |
